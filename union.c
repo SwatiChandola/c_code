@@ -1,24 +1,8 @@
-// wap to find the size of union and the number of byte reserved for it.
-/*#include <stdio.h>
-
-union result
-{
-    int marks;
-    char name[30];
-};
-union result x;
-int main()
-{
-
-    printf("%d", sizeof(x.marks));
-
-    return 0;
-}
-
-#include <stdio.h>
+#include<stdio.h>
 
 int main()
 {
+    printf("swati");
     union result
     {
         int marks;
@@ -87,7 +71,7 @@ int main()
         break;
 
     return 0;
-}*/
+}
 
 // wap to identify the type of entered character whether it is a
 // letter,digit or other symbol using enumerate datatype
